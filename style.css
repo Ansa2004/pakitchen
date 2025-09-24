@@ -925,13 +925,14 @@ font-size: 50px;
   padding-top: 50px;
   padding-left: 60px;
   gap: var(--space-16);
+  
 }
 @media(max-width:480px){
   .hero__buttons {
- 
+margin-right: 70px;
   padding-top: 50px;
-  padding-left: 80px;
-  padding-right: 130px;
+ 
+ 
   
 }
 }
@@ -1488,8 +1489,8 @@ html {
   .logo img{
     margin-left: 0px;
     padding-left: 40px;
-     width: 200px;
-      height: 70px;
+     width: 220px;
+      height: 110px;
   }
 }
 @media(max-width:480px){
