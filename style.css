@@ -1484,6 +1484,7 @@ html {
   border-radius: 5px;
 }
 
+<<<<<<< HEAD
 @media(max-width:480px){
   .logo img{
     margin-left: 0px;
@@ -1496,3 +1497,5 @@ html {
    width: 90%;
   }
 }
+=======
+>>>>>>> 101cc86ba1c089dad6c4bd44bbf8e555313abb8b
