@@ -500,6 +500,17 @@ select.form-control {
   background-size: 16px;
   padding-right: var(--space-32);
 }
+@media (prefers-color-scheme: dark) {
+.hero__titles{
+ color: black;
+}}
+@media (prefers-color-scheme: dark){
+.hero__subtitle{
+  color: black;
+}
+
+
+}
 
 /* Add a dark mode specific caret */
 @media (prefers-color-scheme: dark) {
@@ -752,7 +763,7 @@ select.form-control {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 100vw;
   background-color: var(--color-surface);
   border-bottom: 1px solid var(--color-border);
   z-index: 1000;
@@ -779,7 +790,7 @@ select.form-control {
   width: 8vw;
 
 }
-@media(max-width:786px){
+@media(max-width:480px){
  .nav__brand img{
   height: 10vh;
   width: 30vw;
@@ -842,7 +853,12 @@ select.form-control {
       cursor: pointer;
       z-index: 1000;
     }
-/* Hero Section */
+    /* @media(max-width:768px){
+      #whatsapp-icon{
+         right: 60px;
+      }}
+       */
+      /* Hero Section */
 .hero {
   margin-top: 80px;
   padding: var(--space-32) 0;
@@ -854,7 +870,7 @@ select.form-control {
 margin-bottom: 20px;
 margin-left: 80px;
 }
-@media(max-width:786px){
+@media(max-width:480px){
   .logo img{
   margin-bottom: 20px;
 margin-left: 270px;
@@ -887,10 +903,10 @@ font-size: 50px;
   line-height: var(--line-height-tight);
   padding-top: 15px;
 }
-@media(max-width:786px){
+@media(max-width:480px){
 .hero__titles{
   display: flex;
-  text-align: center;
+ 
  
 }}
 
@@ -910,11 +926,11 @@ font-size: 50px;
   padding-left: 60px;
   gap: var(--space-16);
 }
-@media(max-width:786px){
+@media(max-width:480px){
   .hero__buttons {
-  display: flex;
+ 
   padding-top: 50px;
-  padding-left: 130px;
+  padding-left: 80px;
   padding-right: 130px;
   
 }
@@ -1245,7 +1261,14 @@ font-size: 50px;
 .contact__item a:hover {
   color: var(--color-brand-red-hover);
 }
-
+.contact__map iframe{
+  width: 50vw;
+}
+@media(max-width:480px){
+  .contact__map iframe{
+  width: 80vw;
+}
+}
 .map__placeholder {
   background: var(--color-bg-5);
   height: 300px;
@@ -1327,7 +1350,7 @@ font-size: 50px;
 }
 
 /* Responsive Design */
-@media (max-width: 768px) {
+@media (max-width: 480px) {
   .nav__menu {
     position: fixed;
     top: 80px;
@@ -1461,24 +1484,15 @@ html {
   border-radius: 5px;
 }
 
-.p-shape {
-  position: absolute;
-  width: 20px;
-  height: 80px;
-  background-color: #111; /* Black */
-  border-top-left-radius: 150px;
-  border-bottom-left-radius: 10px;
-  left: 40px;
-  top: 40px;
-  z-index: 2;
+@media(max-width:480px){
+  .logo img{
+    margin-left: 0px;
+    padding-left: 90px;
+     width: 290px;
+  }
 }
-
-.a-shape {
-  position: absolute;
-  width: 60px;
-  height: 60px;
-  background-color: #9b2e1f; /* Dark red */
-  border-radius: 50%  50% 50% 0; /* Top-left is square, others are rounded */
-  left: 40px;
-  top: 40px;
-  z-index
+@media(max-width:480px){
+  .hero__img{
+   width: 90%;
+  }
+}
