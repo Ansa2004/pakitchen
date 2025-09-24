@@ -906,15 +906,15 @@ font-size: 50px;
 @media(max-width:480px){
 .hero__titles{
   display: flex;
- 
- 
+ text-align: center;
+ font-size: var(--font-size-2xl);
 }}
 
 
 .hero__subtitle {
   text-align: center;
   font-size: var(--font-size-lg);
-  color: var(--color-text-secondary);
+  color: black;
   margin-bottom: var(--space-18);
   line-height: var(--line-height-normal);
   padding-top: 15px;
@@ -1484,12 +1484,12 @@ html {
   border-radius: 5px;
 }
 
-<<<<<<< HEAD
 @media(max-width:480px){
   .logo img{
     margin-left: 0px;
-    padding-left: 90px;
-     width: 290px;
+    padding-left: 40px;
+     width: 200px;
+      height: 70px;
   }
 }
 @media(max-width:480px){
@@ -1497,5 +1497,4 @@ html {
    width: 90%;
   }
 }
-=======
->>>>>>> 101cc86ba1c089dad6c4bd44bbf8e555313abb8b
+
